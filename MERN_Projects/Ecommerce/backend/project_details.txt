@@ -1,0 +1,26 @@
+project making step:
+
+1.backend
+ server creation steps:
+i.server configuration using express
+   in server.js make config server
+ii.make config folder 
+   create .env file for store variables
+   create database.js for monodb connection
+
+ iii.create routes folder for make different route  
+ iv. create controllers folder for creating API
+ v.create models folder for schema
+  
+  for handling differnt errors:
+ v.make utils folder 
+   create errorhandle.js for handling server errors.
+ vi.make middleware folder
+    create error.js file to send statuscode and message to server.
+    create catchAsyncErrors.js file to handle catch error for async function.  
+
+ vii.make apifeatures folder for search filter and pagination api
+ viii. for authentication 
+       bcryptjs for encrypt password
+       jsonwebtoken for generate token
+       cookie-parser for store cookie
