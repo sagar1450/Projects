@@ -1,0 +1,65 @@
+body{
+	background-image: url('pexels-chris-f-1465088.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 10%;
+}
+
+#logo{
+	color: #f9004d;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#h1{
+	color:#f9004d;
+}
+#main{	
+	height: 200px;
+	width: 200px;	
+	border: 1px solid#ada6a0;
+	border-radius: 20px;	
+	background: rgba(0,0,0,.25);;
+	padding: 20px 35px;	
+	margin: 15px;	
+	text-align: center;
+}
+
+main h4{
+	color: red;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#ul{
+	color: white;
+}
+
+#city{
+	font-size: 20px;
+
+}
+
+#btn{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 5px 15px;
+	border-radius: 15px;
+	transition: .4s;
+	cursor: pointer;
+}
+
+#temp{
+	font-size: 20px;
+}
