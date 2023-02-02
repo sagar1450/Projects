@@ -7,6 +7,7 @@ const options = {
 };
 
 const getWeather = city => {
+    console.log(city)
 
     cityName.innerHTML = city;
 
