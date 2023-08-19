@@ -106,7 +106,7 @@ const disableButtons = (bool) => {
 
 //Remove Task from local storage
 const removeTask = (taskValue) => {
-  localStorage.removeItem(taskValue);
+  localStorage.removeItem(taskValue); 
   displayTasks();
 };
 

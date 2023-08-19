@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background: var(--color-body);
+}
+
+:root{
+    --primary-color:hsl(218,49%,43%);   
+    --primary-color-light:hsl(218,49%,50%);
+    --color-body:hsl(218,49%,96%);
+    --color-text:hsl(218,20%,20%);
+}
+
+h2{
+    color:var( --primary-color);
+}
+
+p{
+    color: var(--color-text);
+}
+
+.dark-mode{
+    --primary-color:hsl(218,49%,48%);   
+    --primary-color-light:hsl(218,49%,50%);
+    --color-body:hsl(218,49%,10%);
+    --color-text:hsl(218,20%,90%);
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-theme{  
+    /* top:70%; */
+    margin-top: 5%;
+    left:50%;
+    border:none;
+    outline: none;
+    font-size:inherit;
+    padding:1rem 1.5rem;
+    background:var( --primary-color);
+    color:#fff;
+    cursor: pointer;
+    transition: 0.3s background;
+}
+
+
+.toggle-theme:hover{
+    background:var( --primary-color-light) ;
+}
+  
